@@ -1,0 +1,42 @@
+server creation
+-----------------
+1. create a new folder for server
+
+server -node - express
+             -json-server
+npm - node modules
+    - package.json
+
+2. create package.json file in node server
+    ->npm init     
+3.install json-server npm i json-server
+
+
+api request
+----------
+add video-(title,cover image,url, video url )-post
+access video -get
+add new category- cat name - post
+access categories - get
+drag and drop-update category
+add history(date&time,title,video url)-post
+get histories-get
+video delete-id -delete
+cat delete-id -delete
+history delete-id -delete
+
+import
+----------
+import- provide top of the file
+require- can use anywhere ina file
+
+
+CORS-(cross origin resource sharing)
+--------------------------------------
+library used to connect sever with front end
+-npm i cors
+
+
+scripts->add start==>"node index.js"
+add engines-(object)->{"node":>=14.20.1}
+ push sever to github
